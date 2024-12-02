@@ -6,7 +6,7 @@ const middlewares = jsonServer.defaults()
 
 
 server.use((req, res, next) => {
-    res.setHeader('Access-Control-Allow-Origin', 'https://recipes-d9es.vercel.app');
+    res.setHeader('Access-Control-Allow-Origin', 'https://recipes-d9es-ihcyyx6wd-fredericos-projects-230ee5df.vercel.app/');
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
     if (req.method === 'OPTIONS') {
